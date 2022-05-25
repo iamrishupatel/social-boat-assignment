@@ -1,0 +1,22 @@
+header {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2%;
+  gap: 1rem;
+  background-color: #050515;
+
+  input {
+    height: 2rem;
+    max-width: 24rem;
+    flex: 1;
+    padding: 0 0.4rem;
+  }
+  .avatar {
+    height: 2.6rem;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+}

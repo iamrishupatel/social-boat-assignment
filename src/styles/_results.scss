@@ -1,0 +1,13 @@
+main {
+  padding: 2rem 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+@media screen and (max-width: 300px) {
+  main {
+    padding: 0;
+  }
+}

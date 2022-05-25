@@ -1,0 +1,11 @@
+@use "./typography";
+@use "./header";
+@use "./results";
+@use "./card";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}

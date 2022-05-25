@@ -1,0 +1,40 @@
+.card {
+  background-color: #e3e9ff;
+  max-width: 80vw;
+  box-shadow: 0 0 10px #dadada;
+  &:hover {
+    box-shadow: 0 0px 10px #bababa;
+  }
+}
+@media screen and (max-width: 400px) {
+  .card {
+    max-width: 100vw;
+  }
+}
+
+video {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.details {
+  padding: 0.4rem 0 1rem 1rem;
+  h2 {
+    margin: 0.4rem 0;
+    word-break: break-all;
+  }
+  p {
+    word-break: break-all;
+    margin-bottom: 0.4rem;
+  }
+}
+
+.tags {
+  display: flex;
+  gap: 0.4rem;
+  strong {
+    font-size: 0.8rem;
+    color: #758cfa;
+  }
+}
